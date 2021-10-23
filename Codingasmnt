@@ -1,0 +1,32 @@
+
+package thanzi.codingtest;
+
+public class bookarray {
+public void addFavoriteBook(){
+String bookname[]={"sddsd","great","dvgvfbg"};
+String favouritebook="";
+
+int n=bookname.length;
+
+for (int i=0;i<=n;i++){
+
+if (bookname[i]!="great"){
+
+favouritebook+=bookname[i];
+
+System.out.print(favouritebook);
+
+}
+
+}
+
+
+}
+
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+bookarray obj= new bookarray();
+obj.addFavoriteBook();
+
+}
+}
